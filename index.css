@@ -84,29 +84,7 @@ body * {
     width: 23%;
 }
 
-@media(max-width: 1200px) {
-    .top {
-        padding: 1rem;
-        width: 100%;
-        height: 100%;
-        position: relative;
-        /* background-image: url(/section\ abt3.jfif); */
-        background-color: rgba(42, 42, 42, 0.986);
-    }
 
-    .budget-text {
-        /* transform: translateX(50%);
-        transform:translateY(50%);
-        transform:translate(-50%, -50%); */
-        text-align: center;
-        /* background-color: black; */
-        position: static;   
-        margin: 0 auto;        
-        height: 50%;
-        width: 90%;
-    }
-    
-}
 
 .budget-text-header{
     color: white;
@@ -221,6 +199,30 @@ body * {
          /* justify-content: space-between; */
          /* background-color: red; */
     }
+}
+
+@media(max-width: 1200px) {
+    .top {
+        padding: 1rem;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        /* background-image: url(/section\ abt3.jfif); */
+        background-color: rgba(42, 42, 42, 0.986);
+    }
+
+    .budget-text {
+        /* transform: translateX(50%);
+        transform:translateY(50%);
+        transform:translate(-50%, -50%); */
+        text-align: center;
+        /* background-color: black; */
+        position: static;   
+        margin: 0 auto;        
+        height: 50%;
+        width: 90%;
+    }
+    
 }
 
 @media(max-width:900px){
@@ -515,7 +517,7 @@ button:active .ion-ios-close-outline::before {
 
     .input {
         margin-right: 0;
-        margin-bottom: 2.8rem;
+        margin-bottom: 1rem;
         width: 100%;
         height: 100%;
         border-radius: 5px;
@@ -527,7 +529,7 @@ button:active .ion-ios-close-outline::before {
         height: 100%;
         border-color: gray;
         margin-right: 0;
-        margin-top: -2.5rem;
+        margin-top: 12px;
     
     }
 
@@ -545,7 +547,7 @@ button:active .ion-ios-close-outline::before {
         border-radius: 5px;
         border-color: gray;
         margin-left: 0;
-        margin-top: 0;
+        margin-top: 12px;
     }
     
     .button-holder {
@@ -564,6 +566,7 @@ button:active .ion-ios-close-outline::before {
         width: 95%;
         margin: 0 auto;
         border-radius: 5px;
+        margin-top: 12px;
         /* border: 50%; */
         /* background-color: orangered;  */
         outline: none;      
@@ -576,7 +579,8 @@ button:active .ion-ios-close-outline::before {
      }
 
      .options{
-        height: 2.5rem;
+        height: 2.5rem;        
+        margin: 0 auto;
         width: 95%;
         outline: none;
         border-color: gray;
