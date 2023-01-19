@@ -5,6 +5,7 @@
 // let startx;
 // let x;
 
+
 // slider.addEventListener("mousedown", e=> {
 //     slider.style.cursor = "grabbing"
 //     pressed = true;
